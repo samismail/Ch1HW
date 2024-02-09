@@ -4,12 +4,15 @@ public class Textbook {
     private String subject;
     private long isbn;
 
+    // constructor for textbook object
     public Textbook(String title, String author, String subject, long isbn) {
         this.title = title;
         this.author = author;
         this.subject = subject;
         this.isbn = isbn;
     }
+
+    // getter and setters
 
     public String getTitle() {
         return title;
@@ -43,6 +46,7 @@ public class Textbook {
         this.isbn = isbn;
     }
 
+    // to string to output textbook info
     @Override
     public String toString() {
         return  "Title: " + title + '\n' +

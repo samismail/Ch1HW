@@ -6,10 +6,12 @@ public class Bike {
     private int wheels;
     private int year;
 
+    //static int count;
     public Bike(String manufacturer, int wheels, int year){
         this.manufacturer = manufacturer;
         this.wheels = wheels;
         this.year = year;
+      //  count++;
     }
     public String getManufacturer (){
         return manufacturer;
