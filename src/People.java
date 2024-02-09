@@ -40,7 +40,7 @@ public class People {
     }
 
     public static String talk(String name) {
-        return "Welcome, coders! I am " + name;
+         return "Welcome, coders! I am " + name;
     }
 
     @Override
